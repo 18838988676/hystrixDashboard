@@ -10,7 +10,7 @@ public class HystrixDashboardApplication {
 
 	//监控http://localhost:9001/actuator/hystrix.stream
 	//访问http://localhost:6001/hystrix
-	public static void main(String[] args) {
+	public static void main(String[] args) {  
 		SpringApplication.run(HystrixDashboardApplication.class, args);
 	}
 
